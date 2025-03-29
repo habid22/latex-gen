@@ -2,31 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Regular (400) */
+/* Regular */
 @font-face {
   font-family: "Computer Modern";
-  src: url("./public/cmunrm.ttf") format("truetype");
+  src: url("/fonts/cmunrm.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
-/* Bold (700) */
+/* Bold */
 @font-face {
   font-family: "Computer Modern";
-  src: url("./public/cmunbx.ttf") format("truetype");
+  src: url("/fonts/cmunbx.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
-/* Slanted/Italic (400 italic) */
+/* Italic */
 @font-face {
   font-family: "Computer Modern";
-  src: url("./public/cmunsl.ttf") format("truetype");
+  src: url("/fonts/cmunsl.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 
-/* Force Computer Modern globally */
 html,
 body {
   font-family: "Computer Modern", serif !important;

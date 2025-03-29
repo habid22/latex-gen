@@ -10,6 +10,7 @@ module.exports = {
       extend: {
         fontFamily: {
           cmu: ['"Computer Modern"', "serif"],
+          cmuItalic: ['"Computer Modern Italic"', "serif"],
         },
       },
     },
